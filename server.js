@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(function(err, req, res, next){
   if(err instanceof SyntaxError){
     res.status(400);
-    res.send('400 error - SyntaxError');
+    res.send('None Shall Pass');
   } else {
     next(err);
   }
