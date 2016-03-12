@@ -9,20 +9,21 @@
   },
   "author": "Jack Nichols",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coilEraldo/sigma-chi.git"
+  },
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3"
   }
 
-  "repository": {
-  "type": "git",
-  "url": "https://github.com/coilEraldo/sigma-chi.git"
-  }
+
 
   {
   "name": "my-super-amazing-app",
   "version": "1.0.0",
   "private": true
-}
+  }
 
 }
