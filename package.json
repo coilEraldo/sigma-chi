@@ -14,9 +14,8 @@
     "url": "https://github.com/coilEraldo/sigma-chi.git"
   },
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "express": "^4.13.3"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.3",
+    "nodemailer": "^2.3.2"
   }
-
-
 }
