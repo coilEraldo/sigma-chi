@@ -480,11 +480,16 @@ footer .footer-below {
     background-color:#00a0df;
 }
 
-.leftys, .rightys {
+.leftys, .rightys, .rightys1 {
     width:30%;
     display: table-cell;
     height: 400px;
 }
-.rightys{
+.rightys, .rightys1{
   padding:0 30px 0 0;
+}
+
+.rightys1{
+  height: 100%;
+  vertical-align: middle;
 }
