@@ -7,18 +7,11 @@ var bodyParser = require('body-parser');
 app.use(express.static('public'));
 app.use(bodyParser.json());
 
-var transporter = nodemailer.createTransport('smtps://jackrnichols1%40gmail.com:jackwill1@smtp.gmail.com');
-
-var mailOptions = {
-  from: '"Sigma CHi Website" <jackrnichols1@gmail.com>',
-  to: 'arbass@umass.edu',
-  subject: 'Website',
-  text: 'Hey'
-};
 
 
 
-  var server = app.listen(80, function () {
+
+  var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
 
